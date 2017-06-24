@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
                 manager.notify(NOTIFICATION_ID,notification);
                 //NOTIFICATION_ID++;   //for multiple notifications
+                //committed
             }
         });
     }
