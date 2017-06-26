@@ -45,8 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 Notification notification=builder.build();
 
                 manager.notify(NOTIFICATION_ID,notification);
-                NOTIFICATION_ID++;   //for multiple notifications
-
+                //NOTIFICATION_ID++;   //for multiple notifications
             }
         });
     }
